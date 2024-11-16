@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    background-color: black;
+    color: aliceblue;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar li{
+    align-items: center;
+    font-size: xx-large;
+    margin-right: 60px;
+}
+
+span{
+    color: red;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+}
+
+.intro p{
+    font-size: x-large;
+    margin-right: 15px;
+    margin-top: 80px;
+}
+
+.jokes{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
