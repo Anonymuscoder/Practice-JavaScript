@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    background-color: rgb(61, 43, 226);
+}
+
+.container{
+    border: 8px solid white;
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30vh;
+    background-color: aquamarine;
+}
+.container p{
+    background-color: rgb(189, 42, 42);
+    color: aliceblue;
+}
+
+.class1 p{
+    background-color: rgb(42, 189, 169);
+    color: rgb(0, 0, 0);
+}
+
+.text-dark{
+    background-color: black;
+    color: rgb(0, 255, 21);
+}
