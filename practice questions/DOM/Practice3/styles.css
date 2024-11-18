@@ -1,0 +1,27 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+main {
+    flex: 3;
+    background: #e7f3fe;
+    padding: 15px;
+}
+aside {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 15px;
+}
+section {
+    margin-bottom: 20px;
+}
